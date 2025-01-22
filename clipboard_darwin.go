@@ -11,6 +11,7 @@ import (
 )
 
 var (
+        Primary bool
 	pasteCmdArgs = "pbpaste"
 	copyCmdArgs  = "pbcopy"
 )

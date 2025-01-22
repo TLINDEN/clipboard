@@ -19,6 +19,7 @@ const (
 )
 
 var (
+        Primary bool
 	user32                     = syscall.MustLoadDLL("user32")
 	isClipboardFormatAvailable = user32.MustFindProc("IsClipboardFormatAvailable")
 	openClipboard              = user32.MustFindProc("OpenClipboard")
